@@ -1,0 +1,27 @@
+
+/* nav part start */
+.menu_bg {
+    background-color: #1C1E53;
+    ul {
+        li {
+            a {
+                color: #BBBBCB !important;
+                margin: 8px 16px;
+                transition: all linear 0.5s;
+                &:hover {
+                    color: #fff !important;
+                }        
+            }           
+        }
+    }
+}
+
+.menu_a {
+    padding: 6px 32px !important;
+    margin-left: 16px;
+    margin-right: 0 !important;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+/* nav part end */

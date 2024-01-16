@@ -1,0 +1,63 @@
+
+/* pricing part start */
+
+#pricing {
+    padding-top: 120px;
+    p {
+        opacity: 0.7;
+    }
+}
+
+.pricing_item {
+    background-color: #F4F6FC;
+    transition: all linear 0.5s;
+    ul {
+        margin: 0;
+        padding: 0;
+        li {
+            i {
+                color: #97DAAD;
+                padding-right: 15px;
+            }
+        }
+    }
+    a {
+        font-family: 'Manrope', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 32px;
+        padding: 16px 66px;
+        background-color: #1B1C2B;
+        color: #fff;
+        border-radius: 41px;
+        margin-left: 14%;
+        margin-top: 40px;
+        transition: all linear 0.5s;
+    }
+    &:hover {
+        background-color: #1C1E53;
+        color: #fff;
+    }
+    &:hover .price_item h5 {
+        color: #FCD980;
+    }
+    &:hover a{
+        background-color: #FCD980;
+        color: #222;
+    }
+}
+
+.price_main {
+    display: flex;
+    align-items: center;
+}
+
+.price_item {
+    h5 {
+        color: royalblue;
+        padding-left: 15px;
+        transition: all linear 0.5s;
+    }
+}
+
+/* pricing part end */

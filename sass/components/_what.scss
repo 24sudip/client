@@ -1,0 +1,83 @@
+
+/* what part start */
+
+#what {
+    background-color: #EEF4FA;
+    padding: 128px 0;
+}
+
+.what_left {
+    color: darkblue;
+    h3 {
+        font-weight: 500;
+        line-height: 48px;
+    }
+    p {
+        width: 350px;
+        padding-top: 10px;
+    }
+}
+
+.what_right_outer {
+    position: relative;
+}
+
+.what_right_item {
+    color: darkblue;
+}
+
+.clr {
+    clear: both;
+}
+
+.what_down {
+    margin-top: 40px;
+}
+
+.what_img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+.what_text {
+    padding-left: 20px;
+    float: left;
+    h5 {
+        margin-top: -3px;
+    }
+    p {
+        font-size: 12px;
+        margin-top: -10px;
+    }
+}
+
+.prev1,
+.next1 {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    z-index: 9;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #222;
+    background-color: #fff;
+    margin: 0 4px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: all linear 0.5s;
+    &:hover {
+        color: #fff;
+        background-color: blue;
+    }
+}
+
+.next1 {
+    right: 50px;
+}
+
+/* what part start */

@@ -1,0 +1,64 @@
+
+/* inquiry part start */
+
+#inquiry {
+    padding-top: 128px;
+}
+
+.inquiry_left {
+    background: linear-gradient(#1c1e5377, #1c1e5377), url(../images/form.jpg) no-repeat center / cover;
+    padding: 96px 76px;
+    padding-bottom: 229px;
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+        color: #fff;
+    }
+    p {
+        color: #fff;
+    }
+}
+
+.inquiry_right {
+    padding: 96px 76px;
+    background: #1C1E53;
+    h6 {
+        color: #fff;
+    }
+    p {
+        color: #fff;
+        padding-bottom: 10px;
+    }
+    a {
+        color: #fff;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+    i {
+        color: #fff;
+    }
+    form {
+        input {
+            background: transparent;
+            outline: none;
+            width: 100%;
+            padding: 16px 32px;
+            color: gray;
+            border: 1.5px solid #ffffff5c;
+            margin-bottom: 16px;
+            border-radius: 8px;
+        }
+        button {
+            width: 100%;
+            color: #1B1C2B;
+            background: #FCD980;
+            border: none;
+            padding: 16px 0;
+            border-radius: 41px;
+        }
+    }
+}
+
+/* inquiry part end */

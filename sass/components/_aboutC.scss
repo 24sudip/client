@@ -1,0 +1,84 @@
+
+/* about part start */
+
+#about {
+    padding-top: 120px;
+    h1 {
+        padding-top: 8px;
+    }
+    p {
+        padding-top: 31px;
+        color: #282938;
+        opacity: 0.7;
+        text-align: justify;
+    }
+}
+
+#who {
+    padding-top: 120px;
+    h3 {
+        margin-top: -15px;
+    }
+    p {
+        padding-top: 8px;
+        color: #282938;
+        opacity: 0.7;
+        text-align: justify;
+    }
+}
+
+.who_outer {
+    background-color: #F4F5F5;
+}
+
+#process {
+    padding: 120px 0;
+    h2 {
+        text-align: center;
+    }
+}
+
+.process_item {
+    position: relative;
+    &::after {
+        content: '';
+        height: 24px;
+        width: 24px;
+        background-color: #2405F2;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: 48px;
+        width: 224px;
+        border: 1px dashed #2405F2;
+        opacity: 0.4;
+        z-index: 1;
+    }
+    h4 {
+        padding-top: 50px;
+    }
+    p {
+        color: #282938;
+        opacity: 0.7;
+        width: 272px;
+        padding-top: 8px;
+    }
+}
+
+#mission {
+    padding: 120px 0;
+    background-color: #EEF4FA;
+    p {
+        color: #282938;
+        opacity: 0.7;
+    }
+}
+
+/* about part end */

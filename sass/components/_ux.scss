@@ -1,0 +1,32 @@
+
+/* ux part start */
+
+#ux {
+    padding-top: 120px;
+}
+
+.ux_item {
+    p {
+        opacity: 0.7;
+        padding-top: 20px;
+    }
+    span {
+        color: royalblue;
+    }
+    h6 {
+        font-weight: 600;
+    }
+    ul {
+        list-style: disc;
+        margin: 0;
+        padding: 0;
+        padding-left: 17px;
+        li {
+            p {
+                padding-top: 0;
+            }
+        }
+    }
+}
+
+/* ux part end */
